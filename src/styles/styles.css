@@ -1,0 +1,22 @@
+.img_perfil {
+    width: 25vw;
+    border-radius: 50%;
+    border: 5px solid blue;
+    object-fit: cover;
+
+}
+
+.txt_grande {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: -2.0rem;
+}
+
+main {
+ 
+height: 50vh;
+}
+
+.form_tam_m{
+    width: 50vw;
+}

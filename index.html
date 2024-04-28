@@ -4,8 +4,230 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/styles/styles.css" />
+    <!--Bootstrap Css-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!--Fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/45f1f467a1.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Portfolio Mariana</title>
   </head>
-  <body></body>
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <h2>&lt;mari /&gt;</h2>
+          </a>
+
+          <!-- Hamburger Menu Icon (for small screens) -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menu Items -->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre mim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicos">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projetos">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main
+      class="container mt-5 mb-5 d-flex justify-content-center align-items-center"id="home"
+    >
+      <div class="row" >
+        <div class="col-12 text-center">
+          <h2 class="">Olá!</h2>
+          <h2>Eu sou a Mari</h2>
+          <h3>Desenvolvedora Web</h3>
+          <div class="btn-group" role="group" aria-label="Visualizar mais">
+            <a href="#sobre" class="btn btn-primary mr-2">Sobre mim </a>
+            <a href="#projetos" class="btn btn-outline-primary mr-2">Meus projetos</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="mt-5 mb-5" id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <img src="./src/images/mariana perfil.jpg" alt="Imagem da Mari" title="Perfil da Mari" class="img_perfil" />
+                </div>
+                <div class="col-md-6 col-12">
+                    <p class="sub_titulo_secao">Quem eu sou?</p>
+                    <h4 class="titulo_secão">Sobre mim</h4>
+                    <p>
+                        Estudante de Sistemas de Informação no IFBA e atualmente no Curso Fullstack da Recode Pro. Com experiência em projetos envolvendo WordPress e Java, busco constantemente aprimorar minhas habilidades. Aberta a oportunidades como freelancer ou em regime CLT, mantenho um compromisso inabalável com a qualidade. Desenvolvo um portfólio online e estou pronta para contribuir em projetos web. Sinta-se à vontade para explorar meu perfil e entrar em contato para discutir como posso agregar valor aos seus projetos.
+                    </p>
+                    <a href="#projetos" class="btn btn-primary">Conheça melhor meu trabalho <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section class="container" id="servicos">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="sub_titulo_secao">O que eu faço?</p>
+          <h4 class="titulo_secao">Serviços</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card text-center pt-4">
+            <i class="fa-solid fa-desktop fa-5x"></i>
+            <div class="card-body">
+              <h5 class="card-title">Desenvolvimento de Websites</h5>
+              <p class="card-text">
+                Desenvolvo landing pages, sites institucionais, blogs e lojas virtuais
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card text-center pt-4">
+        
+            <i class="fa-solid fa-screwdriver-wrench fa-5x"></i>
+            <div class="card-body">
+              <h5 class="card-title">Manutenção de sites</h5>
+              <p class="card-text">
+                Insiro conteúdos, corrijo bugs e auxilio clientes
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card text-center pt-4">
+        
+            <i class="fa-solid fa-code fa-5x"></i>
+            <div class="card-body">
+              <h5 class="card-title">Desenvolvimento de sistemas</h5>
+              <p class="card-text">
+           Crio sistemas personalizados para atender às suas necessidades 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5 mb-5" id="projetos">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="sub_titulo_secao">O que eu fiz?</p>
+          <h4 class="titulo_secao">Portfolio</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-12"></div>
+      </div>
+    </section>
+
+    <section class="container mt-5 mb-1" id="contato">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="sub_titulo_secao">Como falar comigo?</p>
+          <h4 class="titulo_secao mb-4">Contato</h4>
+                  <div class="col-md-6 offset-md-3">
+                    <form>
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="exampleInputName"
+                          placeholder="Seu Nome"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="exampleInputEmail"
+                          placeholder="Seu E-mail"
+                        />
+                      </div>
+
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          id="exampleMessage"
+                          placeholder="Sua Mensagem"
+                        ></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-outline-primary">
+                        Enviar mensagem
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 d-flex align-items-center justify-content-center ">
+            <div class="redes_sociais">
+                <a href="https://linkedin.com/in/mariana-moreira-ti" target="_blank" rel="noopener noreferrer"> <i class="fab fa-linkedin text-center"></i></a>
+               <a href="mailto:marimoreirabsi@gmail.com" target="_blank" rel="noopener noreferrer">  <i class="fas fa-envelope text-center"></i></a>
+             
+            </div>
+        
+        </div>
+    </div>
+    
+    </section>
+
+    <!--Bootstrap Jquery and Javascript-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
