@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap');
+
+:root {
+    --azul-primario: #090F3F;
+    --azul-secundario: #007bff;
+    --branco: #fff;
+    --cinza: #747373;
+    --cinzinha: #b3b1b1;
+    --dourado: #B4872C;
+    --marrom: #825D25;
+    --font-default: "Baloo Paaji 2", sans-serif;
+
+}
+
+.logomarca {
+    color: var(--azul-primario);
+    font-size: 2rem;
+    font-family: var(--font-default);
+    font-weight: 800;
+}
+
+.fonte_editada {
+    color: var(--azul-primario);
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.img_perfil {
+    width: 30vw;
+    border-radius: 50%;
+    border: 10px double var(--azul-primario);
+    object-fit: cover;
+
+}
+
+.titulo_secao {
+    color: var(--azul-primario);
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: var(--font-default);
+}
+
+.sub_titulo_secao {
+    color: var(--cinzinha);
+    font-size: 1rem;
+    margin-bottom: -0.5rem;
+}
+
+.paragrafo_default {
+    color: var(--cinza);
+    font-weight: normal;
+
+}
+
+#botao_projetos {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px;
+    transition: all 0.5s ease;
+}
+
+#botao_projetos:hover {
+
+    background-color: var(--azul-secundario);
+}
+
+main {
+
+    height: 75vh;
+    background-image: url('../images/banner-portfolio.png');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+section {
+    padding: 5rem 0;
+
+}
+
+section#sobre {
+    padding-bottom: 0;
+
+}
+
+.titulo_main {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.titulo_main_detalhe {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.icone_default {
+    color: var(--azul-secundario);
+    transition: all 0.3s ease-in;
+}
+
+.titulo_card {
+    color: var(--azul-primario);
+    font-family: var(--font-default);
+    font-weight: 800;
+
+}
+
+.bg_dark {
+    background-color: var(--azul-primario);
+    color: var(--branco);
+    font-family: var(--font-default);
+}
+
+
+.linha_horizontal {
+    width: 100%;
+    height: 1px;
+    background-color: var(--cinzinha);
+    margin-bottom: 15px;
+}
+
+
+
+.icone_reverso {
+    padding: 8px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    color: var(--cinzinha);
+    background-color: #fff;
+    border: 2px solid var(--cinzinha);
+
+    transition: all 0.3s ease;
+}
+
+.icone_reverso:hover {
+    color: var(--branco);
+    background-color: var(--azul-primario);
+    border: none;
+}
