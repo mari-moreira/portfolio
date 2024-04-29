@@ -20,12 +20,12 @@
     <title>Portfolio Mariana</title>
   </head>
   <body>
-    <header class="fixed-top">
+    <header class="fixed-top mb-5">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <!-- Logo -->
           <a class="navbar-brand" href="#">
-            <h2>&lt;mari /&gt;</h2>
+            <h2 class="logomarca">&lt;mari /&gt;</h2>
           </a>
 
           <!-- Hamburger Menu Icon (for small screens) -->
@@ -46,7 +46,7 @@
             class="collapse navbar-collapse justify-content-end"
             id="navbarNav"
           >
-            <ul class="navbar-nav">
+            <ul class="navbar-nav fonte_editada">
               <li class="nav-item active">
                 <a class="nav-link" href="#home">Home</a>
               </li>
@@ -69,13 +69,13 @@
     </header>
 
     <main
-      class="container mt-5 mb-5 d-flex justify-content-center align-items-center"id="home"
+      class="container-full d-flex justify-content-center align-items-center bg_dark"id="home"
     >
       <div class="row" >
         <div class="col-12 text-center">
-          <h2 class="">Olá!</h2>
-          <h2>Eu sou a Mari</h2>
-          <h3>Desenvolvedora Web</h3>
+          <h2 class="titulo_main">Olá!</h2>
+          <h2 class="titulo_main">Eu sou a Mari</h2>
+          <h3 class="titulo_main_detalhe">Desenvolvedora Web</h3>
           <div class="btn-group" role="group" aria-label="Visualizar mais">
             <a href="#sobre" class="btn btn-primary mr-2">Sobre mim </a>
             <a href="#projetos" class="btn btn-outline-primary mr-2">Meus projetos</a>
@@ -83,19 +83,19 @@
         </div>
       </div>
     </main>
-    <section class="mt-5 mb-5" id="sobre">
+    <section id="sobre">
         <div class="container">
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-md-6 col-12">
                     <img src="./src/images/mariana perfil.jpg" alt="Imagem da Mari" title="Perfil da Mari" class="img_perfil" />
                 </div>
                 <div class="col-md-6 col-12">
                     <p class="sub_titulo_secao">Quem eu sou?</p>
-                    <h4 class="titulo_secão">Sobre mim</h4>
-                    <p>
+                    <h4 class="titulo_secao">Sobre mim</h4>
+                    <p class="paragrafo_default">
                         Estudante de Sistemas de Informação no IFBA e atualmente no Curso Fullstack da Recode Pro. Com experiência em projetos envolvendo WordPress e Java, busco constantemente aprimorar minhas habilidades. Aberta a oportunidades como freelancer ou em regime CLT, mantenho um compromisso inabalável com a qualidade. Desenvolvo um portfólio online e estou pronta para contribuir em projetos web. Sinta-se à vontade para explorar meu perfil e entrar em contato para discutir como posso agregar valor aos seus projetos.
                     </p>
-                    <a href="#projetos" class="btn btn-primary">Conheça melhor meu trabalho <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#projetos" class="btn btn-primary" id="botao_projetos">Conheça melhor meu trabalho <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -104,19 +104,19 @@
     
 
     <section class="container" id="servicos">
-      <div class="row">
+  
         <div class="col-12 text-center">
           <p class="sub_titulo_secao">O que eu faço?</p>
           <h4 class="titulo_secao">Serviços</h4>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 mb-4">
+      <div class="row mt-5">
+        <div class="col-lg-4 col-md-6 mb-4 ">
           <div class="card text-center pt-4">
-            <i class="fa-solid fa-desktop fa-5x"></i>
+            <i class="fa-solid fa-desktop fa-3x icone_default"></i>
             <div class="card-body">
-              <h5 class="card-title">Desenvolvimento de Websites</h5>
-              <p class="card-text">
+              <h5 class="card-title titulo_card">Desenvolvimento de Websites</h5>
+              <p class="card-text paragrafo_default ">
                 Desenvolvo landing pages, sites institucionais, blogs e lojas virtuais
               </p>
             </div>
@@ -125,10 +125,10 @@
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card text-center pt-4">
         
-            <i class="fa-solid fa-screwdriver-wrench fa-5x"></i>
+            <i class="fa-solid fa-screwdriver-wrench fa-3x icone_default"></i>
             <div class="card-body">
-              <h5 class="card-title">Manutenção de sites</h5>
-              <p class="card-text">
+              <h5 class="card-title titulo_card">Manutenção de sites</h5>
+              <p class="card-text paragrafo_default ">
                 Insiro conteúdos, corrijo bugs e auxilio clientes
               </p>
             </div>
@@ -137,19 +137,34 @@
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card text-center pt-4">
         
-            <i class="fa-solid fa-code fa-5x"></i>
+            <i class="fa-solid fa-code fa-3x icone_default"></i>
             <div class="card-body">
-              <h5 class="card-title">Desenvolvimento de sistemas</h5>
-              <p class="card-text">
+              <h5 class="card-title titulo_card">Desenvolvimento de sistemas</h5>
+              <p class="card-text paragrafo_default ">
            Crio sistemas personalizados para atender às suas necessidades 
             </div>
           </div>
         </div>
       </div>
     </section>
+   <div class="bg_dark mt-5 mb-5">
+    <div class="container ">
+        <div class="row pt-4 pb-4 mt-5">
+            <div class="col-lg-6 col-12">
+                <h4>Quer trabalhar comigo?</h4>
+                <p>Sinta-se sempre à vontade para entrar em contato</p>
+            </div>
+            <div class="col-lg-6 col-12 d-flex justify-content-end align-items-center">
+                <a href="#contato" class="btn btn-primary">Entrar em contato</a>
+            </div>
+        </div>
+    </div>
+</div>
 
-    <section class="container mt-5 mb-5" id="projetos">
-      <div class="row">
+    </section>
+
+    <section class="container mt-5 " id="projetos">
+      <div class="row ">
         <div class="col-12 text-center">
           <p class="sub_titulo_secao">O que eu fiz?</p>
           <h4 class="titulo_secao">Portfolio</h4>
@@ -160,7 +175,7 @@
       </div>
     </section>
 
-    <section class="container mt-5 mb-1" id="contato">
+    <footer class="container mb-3 " id="contato">
       <div class="row">
         <div class="col-12 text-center">
           <p class="sub_titulo_secao">Como falar comigo?</p>
@@ -168,50 +183,60 @@
                   <div class="col-md-6 offset-md-3">
                     <form>
                       <div class="form-group">
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="exampleInputName"
-                          placeholder="Seu Nome"
-                        />
+                          <input
+                              type="text"
+                              class="form-control"
+                              id="exampleInputName"
+                              placeholder="Seu Nome"
+                          />
                       </div>
                       <div class="form-group">
-                        <input
-                          type="email"
-                          class="form-control"
-                          id="exampleInputEmail"
-                          placeholder="Seu E-mail"
-                        />
+                          <input
+                              type="email"
+                              class="form-control"
+                              id="exampleInputEmail"
+                              placeholder="Seu E-mail"
+                          />
                       </div>
-
                       <div class="form-group">
-                        <textarea
-                          class="form-control"
-                          id="exampleMessage"
-                          placeholder="Sua Mensagem"
-                        ></textarea>
+                          <input
+                              type="tel"
+                              class="form-control"
+                              id="exampleInputPhone"
+                              placeholder="Seu Telefone"
+                          />
                       </div>
-                      <button type="submit" class="btn btn-outline-primary">
-                        Enviar mensagem
+                      <div class="form-group">
+                          <textarea
+                              class="form-control"
+                              id="exampleMessage"
+                              placeholder="Sua Mensagem"
+                          ></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">
+                          Enviar mensagem
                       </button>
-                    </form>
+                  </form>
                   </div>
                 </div>
               </div>
         </div>
       </div>
-      <div class="row mt-5">
-        <div class="col-12 d-flex align-items-center justify-content-center ">
-            <div class="redes_sociais">
-                <a href="https://linkedin.com/in/mariana-moreira-ti" target="_blank" rel="noopener noreferrer"> <i class="fab fa-linkedin text-center"></i></a>
-               <a href="mailto:marimoreirabsi@gmail.com" target="_blank" rel="noopener noreferrer">  <i class="fas fa-envelope text-center"></i></a>
-             
+      <div class="row mt-5 linha_horizontal">
+        <div class="col-lg-6 col-12">
+                <div class="linha_horizontal"></div>
+                <p class=" paragrafo_default">&copy; Copyright 2024 . Feito com muito ❤️ por <strong>Mari</strong></p>
+              
             </div>
-        
+     
+        <div class="col-lg-6 col-12 d-flex justify-content-end align-items-center">
+            <div class="redes_sociais mb-2">
+                <a href="https://linkedin.com/in/mariana-moreira-ti" target="_blank" rel="noopener noreferrer"> <i class="fab fa-linkedin text-center icone_reverso"></i></a>
+                <a href="mailto:marimoreirabsi@gmail.com" target="_blank" rel="noopener noreferrer">  <i class="fas fa-envelope text-center icone_reverso"></i></a>
         </div>
     </div>
-    
-    </section>
+</div>
+    </footer>
 
     <!--Bootstrap Jquery and Javascript-->
     <script
