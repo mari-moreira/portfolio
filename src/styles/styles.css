@@ -140,3 +140,48 @@ section#sobre {
     background-color: var(--azul-primario);
     border: none;
 }
+
+/*PÁGINA DE OBRIGADA*/
+.fundo_alternativo {
+    background-color: #f8f8f8;
+    max-height: 100vh;
+}
+.card-personalizado {
+    max-width: 70%;
+    height: auto;
+    background-color: var(--branco);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.img_agradecimento {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.paragrafo_default {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .card-personalizado {
+        max-width: 100%;
+        width: 100%; 
+        margin: 20px 0; 
+        padding: 15px; 
+    }
+
+    .img_agradecimento {
+        width: 100%;
+    }
+
+    .paragrafo_default {
+        font-size: 16px; 
+    }
+}
