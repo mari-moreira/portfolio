@@ -17,6 +17,9 @@
       crossorigin="anonymous"
     ></script>
 
+<!--AOS - Animate on scroll library-->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Portfolio Mariana</title>
   </head>
   <body>
@@ -25,7 +28,7 @@
         <div class="container">
           <!-- Logo -->
           <a class="navbar-brand" href="#">
-            <h2 class="logomarca">&lt;mari /&gt;</h2>
+            <h2 class="logomarca" data-aos="zoom-in">&lt;mari /&gt;</h2>
           </a>
 
           <!-- Hamburger Menu Icon (for small screens) -->
@@ -75,7 +78,7 @@
         <div class="col-12 text-center">
           <h2 class="titulo_main">Olá!</h2>
           <h2 class="titulo_main">Eu sou a Mari</h2>
-          <h3 class="titulo_main_detalhe">Desenvolvedora Web</h3>
+          <h3 class="titulo_main_detalhe" data-aos="fade-right">Desenvolvedora Web</h3>
           <div class="btn-group" role="group" aria-label="Visualizar mais">
             <a href="#sobre" class="btn btn-primary mr-2">Sobre mim </a>
             <a href="#projetos" class="btn btn-outline-primary mr-2">Meus projetos</a>
@@ -91,9 +94,13 @@
                 </div>
                 <div class="col-md-6 col-12">
                     <p class="sub_titulo_secao">Quem eu sou?</p>
-                    <h4 class="titulo_secao">Sobre mim</h4>
+                    <h4 class="titulo_secao" data-aos="fade-right">Sobre mim</h4>
                     <p class="paragrafo_default">
-                        Estudante de Sistemas de Informação no IFBA e atualmente no Curso Fullstack da Recode Pro. Com experiência em projetos envolvendo WordPress e Java, busco constantemente aprimorar minhas habilidades. Aberta a oportunidades como freelancer ou em regime CLT, mantenho um compromisso inabalável com a qualidade. Desenvolvo um portfólio online e estou pronta para contribuir em projetos web. Sinta-se à vontade para explorar meu perfil e entrar em contato para discutir como posso agregar valor aos seus projetos.
+                      Sou estudante de Sistemas de Informação no IFBA e atualmente estou no Curso Fullstack da Recode Pro. Com experiência em projetos envolvendo WordPress e Java, busco constantemente aprimorar minhas habilidades e expandir meu conhecimento. Estou aberta a oportunidades como freelancer ou em regime CLT, e mantenho um compromisso inabalável com a qualidade do meu trabalho.
+
+                      Atualmente, estou desenvolvendo um portfólio online para apresentar minhas habilidades e projetos. Estou pronta para contribuir com seu projeto web e ajudar a alcançar seus objetivos. Sinta-se à vontade para explorar meu perfil e entrar em contato para discutirmos como posso agregar valor aos seus projetos.
+                      
+                      
                     </p>
                     <a href="#projetos" class="btn btn-primary" id="botao_projetos">Conheça melhor meu trabalho <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
@@ -102,22 +109,22 @@
     </section>
     
     
-
+<!--Serviços-->
     <section class="container" id="servicos">
   
         <div class="col-12 text-center">
           <p class="sub_titulo_secao">O que eu faço?</p>
-          <h4 class="titulo_secao">Serviços</h4>
+          <h4 class="titulo_secao" data-aos="fade-right">Serviços</h4>
         </div>
       </div>
-      <div class="row mt-5">
+      <div class="row mt-5" data-aos="zoom-in"  data-aos-delay="150">
         <div class="col-lg-4 col-md-6 mb-4 ">
           <div class="card text-center pt-4">
             <i class="fa-solid fa-desktop fa-3x icone_default"></i>
-            <div class="card-body">
-              <h5 class="card-title titulo_card">Desenvolvimento de Websites</h5>
+            <div class="card-body" data-aos="zoom-in"  data-aos-delay="150">
+              <h5 class="card-title titulo_card" >Desenvolvimento de Websites</h5>
               <p class="card-text paragrafo_default ">
-                Desenvolvo landing pages, sites institucionais, blogs e lojas virtuais
+                Desenvolvo landing pages, sites institucionais, blogs e lojas virtuais.
               </p>
             </div>
           </div>
@@ -126,10 +133,10 @@
           <div class="card text-center pt-4">
         
             <i class="fa-solid fa-screwdriver-wrench fa-3x icone_default"></i>
-            <div class="card-body">
+            <div class="card-body" data-aos="zoom-in"  data-aos-delay="300">
               <h5 class="card-title titulo_card">Manutenção de sites</h5>
               <p class="card-text paragrafo_default ">
-                Insiro conteúdos, corrijo bugs e auxilio clientes
+                Insiro conteúdos, realizo correções de bugs e ofereço suporte personalizado
               </p>
             </div>
           </div>
@@ -138,127 +145,175 @@
           <div class="card text-center pt-4">
         
             <i class="fa-solid fa-code fa-3x icone_default"></i>
-            <div class="card-body">
+            <div class="card-body" data-aos="zoom-in"  data-aos-delay="500">
               <h5 class="card-title titulo_card">Desenvolvimento de sistemas</h5>
               <p class="card-text paragrafo_default ">
-           Crio sistemas personalizados para atender às suas necessidades 
-            </div>
+                Em breve, oferecerei desenvolvimento de sistemas personalizados 
           </div>
         </div>
       </div>
     </section>
-
+<!--CTA-->
    <div class="bg_dark mt-5 mb-5">
     <div class="container ">
         <div class="row pt-4 pb-4 mt-5">
             <div class="col-lg-6 col-12">
-                <h4>Quer trabalhar comigo?</h4>
+                <h4 data-aos="fade-right">Quer trabalhar comigo?</h4>
                 <p>Sinta-se sempre à vontade para entrar em contato</p>
             </div>
             <div class="col-lg-6 col-12 d-flex justify-content-end align-items-center">
-                <a href="#contato" class="btn btn-primary">Entrar em contato</a>
+                <a href="https://api.whatsapp.com/send?phone=5577981345510&text=Ol%C3%A1,%20estou%20vindo%20do%20site%20e%20quero%20fazer%20um%20or%C3%A7amento." class="btn btn-primary">  <i class="fa-brands fa-whatsapp"></i>  Entrar em contato</a>
             </div>
         </div>
     </div>
 </div>
-
+<!--Portfolio-->
 <section class="container" id="projetos">
   <div class="row">
     <div class="col-12 text-center">
       <p class="sub_titulo_secao">O que eu fiz?</p>
-      <h4 class="titulo_secao">Portfolio</h4>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 col-md-6 mb-4">
-      <div class="text-center" >
-        <img class="card-img-top" src="./src/images/monitorando.jpg" alt="Projeto monitorando">
-        <div class="card-body">
-          <h5 class="card-title titulo_card"> Monitorando</h5>
-          <p class="sub_titulo_secao "> Monitorando é um projeto desenvolvido por mim e minha Squad durante nossa trajetória no curso de Programador Fullstack  da <strong> Recode Pro </strong></p>
-          <br>
-          <a href="https://monitorando-chi.vercel.app/" class="btn btn-primary"> <i class="fa-regular fa-eye"></i> Visitar site </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-6 col-md-6 mb-4">
-      <div class="text-center" >
-        <img class="card-img-top" src="./src/images/incentivu-solucoes.png" alt="Incentivu Soluções">
-        <div class="card-body">
-          <h5 class="card-title titulo_card"> Incentivu Soluções Empresariais</h5>
-          <p class="sub_titulo_secao "> A Inventivu é um site institucional, no qual apresenta um pouco da Empresa e dos serviços prestados pela <strong>Cecilia</strong> e <strong>Adriana</strong></p>
-          <br>
-          <a href="https://incentivusolucoes.com.br/" class="btn btn-primary"> <i class="fa-regular fa-eye"></i> Visitar site </a>
-        </div>
-      </div>
+      <h4 class="titulo_secao mb-5" data-aos="fade-right">Portfolio</h4>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-lg-6 col-md-6 mb-4">
-      <div class="text-center">
-        <img class="card-img-top" src="./src/images/delta-contabilidade.png" alt="Demo delta contabilidade">
-        <div class="card-body">
-          <h5 class="card-title titulo_card">Delta Contabilidade</h5>
-          <p class="sub_titulo_secao "> Delta Contabilidade é um site de contabilidade no qual possui um blog via rss e também as revistas sobre o mundo contábil.</p>
-          <br>
-          <a href="https://deltacontabilidades.com.br/" target="_blank" class="btn btn-primary"> <i class="fa-regular fa-eye"></i> Visitar site </a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-6 col-md-6 mb-4">
-      <div class="text-center">
-        <img class="card-img-top" src="./src/images/elegance-colchoes.png" alt="Demo Elegance Colchões">
-        <div class="card-body">
-          <h5 class="card-title titulo_card">Elegance Colchões</h5>
-          <p class="sub_titulo_secao ">É um site institucional que possui o catálogo dos colchões Elegance e também conteúdo dinâmico do Instagram
-          </p>
-          <br>
-          </div>
-          <a href="https://elegancecolchoes.com.br/" target="_blank" class="btn btn-primary"> <i class="fa-regular fa-eye"></i> Visitar site </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-6 col-md-6 mb-4">
-        <div class="text-center" >
-          <img class="card-img-top" src="./src/images/armp.jpg" alt="Portfolio armp">
+  <div class="row mb-5">
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="text-start shadow">
+        <a href="https://incentivusolucoes.com.br/" target="_blank" title="Incentivu Soluções website" class="text-decoration-none text-reset">
+          <img class="card-img-top" src="./src/images/incentivu-solucoes-empresariais.png" alt="Incentivu Soluções Empresariais">
           <div class="card-body">
-            <h5 class="card-title titulo_card"> ARPM</h5>
-            <p class="sub_titulo_secao "> Nesse site temos o portfolio da  <strong> Renata </strong> e <strong>Bruna Ribeiro</strong></p>
+            <h5 class="card-title titulo_card">Incentivu Soluções</h5>
+            <p class="sub_titulo_secao">
+              Site para uma empresa dedicada a ajudar clientes a crescerem e prosperarem através da obtenção de incentivos fiscais.
+            </p>
             <br>
-            <a href="https://arpm.com.br/" class="btn btn-primary"> <i class="fa-regular fa-eye"></i> Visitar site </a>
+            <button class="btn btn-primary pl-5 pr-5 mt-3">Visitar site <i class="fa-regular fa-eye"></i></button>
           </div>
-        </div>
+        </a>
       </div>
-  
-      <div class="col-lg-6 col-md-6 mb-4">
-        <div class="text-center" >
-          <img class="card-img-top" src="./src/images/incentivu-solucoes.png" alt="Incentivu Soluções">
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="text-start shadow">
+        <a href="https://deltacontabilidades.com.br/" target="_blank" title="Delta Contabilidade website" class="text-decoration-none text-reset">
+          <img class="card-img-top" src="./src/images/delta-contabilidades.png" alt="Delta Contabilidades">
           <div class="card-body">
-            <h5 class="card-title titulo_card"> Incentivu Soluções Empresariais</h5>
-            <p class="sub_titulo_secao "> A Inventivu é um site institucional, no qual apresenta um pouco da Empresa e dos serviços prestados pela <strong>Cecilia</strong> e <strong>Adriana</strong></p>
+            <h5 class="card-title titulo_card">Delta Contabilidade</h5>
+            <p class="sub_titulo_secao">
+              Site especializado em contabilidade, que oferece um blog com atualizações via RSS e revistas sobre o mundo contábil.
+            </p>
             <br>
-            <a href="https://incentivusolucoes.com.br/" class="btn btn-primary"> <i class="fa-regular fa-eye"></i> Visitar site </a>
+            <button class="btn btn-primary pl-5 pr-5 mt-3">Visitar site <i class="fa-regular fa-eye"></i></button>
           </div>
-        </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="text-start shadow">
+        <a href="https://arpm.com.br/" target="_blank" title="ARPM website" class="text-decoration-none text-reset">
+          <img class="card-img-top " src="./src/images/arpm.png" alt="Arpm">
+          <div class="card-body">
+            <h5 class="card-title titulo_card">ARPM</h5>
+            <p class="sub_titulo_secao">
+              Site dedicado à assessoria de relacionamento entre pessoas e marcas, oferecendo soluções personalizadas.
+            </p>
+            <br>
+            <button class="btn btn-primary pl-5 pr-5 mt-3">Visitar site <i class="fa-regular fa-eye"></i></button>
+          </div>
+        </a>
       </div>
     </div>
   </div>
 
-
+  <div class="row mb-5">
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="text-start shadow">
+        <a href="https://carpintariareis.com.br/" target="_blank" title="Carpintaria Reis website" class="text-decoration-none text-reset">
+          <img class="card-img-top" src="./src/images/carpintaria-reis.png" alt="Carpintaria Reis">
+          <div class="card-body">
+            <h5 class="card-title titulo_card">Carpintaria Reis</h5>
+            <p class="sub_titulo_secao">
+              Site especializado em carpintaria, apresentando o portfólio, destacando dedicação, qualidade e elegância.
+            </p>
+            <br>
+            <button class="btn btn-primary pl-5 pr-5 mt-3">Visitar site <i class="fa-regular fa-eye"></i></button>
+          </div>
+        </a>
+      </div>
     </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="text-start shadow">
+        <a href="https://monitorando-chi.vercel.app/" target="_blank" title="Monitorando website" class="text-decoration-none text-reset">
+          <img class="card-img-top" src="./src/images/monitorando-recode.png" alt="Monitorando">
+          <div class="card-body">
+            <h5 class="card-title titulo_card">Monitorando</h5>
+            <p class="sub_titulo_secao">
+              Projeto desenvolvido pela Squad 24 durante a trajetória no curso de Programador Fullstack da <strong>Recode Pro</strong>.
+            </p>
+            <br>
+            <button class="btn btn-primary pl-5 pr-5 mt-3">Visitar site <i class="fa-regular fa-eye"></i></button>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="text-start shadow">
+        <a href="https://vlrsolar.com.br/" target="_blank" title="VLR Solar website" class="text-decoration-none text-reset">
+          <img class="card-img-top" src="./src/images/vlr-solar.png" alt="VLR Solar">
+          <div class="card-body">
+            <h5 class="card-title titulo_card">VLR Solar</h5>
+            <p class="sub_titulo_secao">
+              Site focado em energia solar, com portfólio que mostra dedicação à qualidade e inovação em soluções sustentáveis.
+            </p>
+            <br>
+            <button class="btn btn-primary pl-5 pr-5 mt-3">Visitar site <i class="fa-regular fa-eye"></i></button>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="text-start shadow">
+        <a href="https://aciapa.com.br/" target="_blank" title="Aciapa Amargosa website" class="text-decoration-none text-reset">
+          <img class="card-img-top" src="./src/images/aciapa-amargosa.png" alt="Aciapa Amargosa">
+          <div class="card-body">
+            <h5 class="card-title titulo_card">Aciapa Amargosa</h5>
+            <p class="sub_titulo_secao">
+              Site dedicado à Associação Comercial, Industrial e Agropecuária de Amargosa, defendendo interesses empresariais e promovendo o comércio regional.
+            </p>
+            <br>
+            <button class="btn btn-primary pl-5 pr-5 mt-3">Visitar site <i class="fa-regular fa-eye"></i></button>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-12 text-center mt-4">
+      <a href="https://api.whatsapp.com/send?phone=5577981345510&text=Ol%C3%A1,%20estou%20vindo%20do%20site%20e%20quero%20fazer%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" title="Fale comigo pelo WhatsApp" class="btn btn-primary pl-5 pr-5 mt-3">
+        <i class="fa-brands fa-whatsapp"></i> Faça um orçamento
+      </a>
+    </div>
+  </div>
+
 </section>
 
-<footer class="container mb-3" id="contato">
+
+
+<!--Contato-->
+
+<footer class="bg_dark pt-5" id="contato">
+  <div class="container">
   <div class="row">
       <div class="col-12 text-center">
-          <p class="sub_titulo_secao">Como falar comigo?</p>
-          <h4 class="titulo_secao mb-4">Contato</h4>
-          <p class="paragrafo_default">
-              Você pode entrar em contato comigo pelo e-mail, github ou LinkedIn.<br>
+          <p class="sub_titulo_secao  text-white">Como falar comigo?</p>
+          <h4 class="titulo_secao  text-white mb-4" data-aos="fade-right">Contato</h4>
+          <p class="paragrafo_default  text-white">
+              Você pode entrar em contato comigo pelos contatos abaixo.<br>
               Estou sempre disposta a te atender.
           </p>
           <div class="col-lg-6 col-12 mx-auto">
@@ -266,9 +321,11 @@
                   <a href="https://linkedin.com/in/mariana-moreira-ti" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin text-center icone_reverso"></i></a>
                   <a href="https://github.com/mari-moreira/"><i class="fa-brands fa-github  text-center icone_reverso"></i></a>
                   <a href="mailto:marimoreirabsi@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope text-center icone_reverso"></i></a>
+                  <a href="https://api.whatsapp.com/send?phone=5577981345510&text=Ol%C3%A1,%20estou%20vindo%20do%20site%20e%20quero%20fazer%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp text-center icone_reverso"></i></a>
               </div>
           </div>
       </div>
+    </div>
   </div>
 </footer>
 
@@ -289,5 +346,11 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+
+    <!--AOS - Animate on scroll library-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
